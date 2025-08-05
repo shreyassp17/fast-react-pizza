@@ -10,7 +10,7 @@ import Order, { loader as orderLoader } from './features/order/Order'
 import { action as updateOrderAction } from './features/order/UpdateOrder'
 import CreateOrder, { action as createOrderAction } from './features/order/CreateOrder'
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     element: <AppLayout />,
     errorElement: <Error />,
